@@ -1,0 +1,17 @@
+.agregado {
+    background-color: #d4edda !important; /* Verde claro */
+    color: #155724 !important;
+    animation: fade 1s ease-in-out;
+  }
+  
+  .eliminado {
+    background-color: #f8d7da !important; /* Rojo claro */
+    color: #721c24 !important;
+    animation: fade 1s ease-in-out;
+  }
+  
+  @keyframes fade {
+    from { opacity: 0.3; }
+    to { opacity: 1; }
+  }
+  

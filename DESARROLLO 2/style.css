@@ -1,0 +1,30 @@
+.mi-navbar {
+  background: linear-gradient(90deg, #A50044 0%, #004D98 100%);
+}
+
+.navbar-brand {
+  font-family: 'Arial Black', sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  #cart-items li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #cart-items img {
+    width: 50px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+  
+}
+
+footer a {
+  color: #A50044;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #FDB927;
+}
